@@ -22,7 +22,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # api部署
 
 数据库文件 api/vote.sql
-
+```
 pip install flask
 pip install pymysql
 pip install flask-mysql
@@ -32,5 +32,5 @@ pip install apscheduler
 cd api
 nohup python app.py &
 nohup python zsc_rpc.py &
-
+```
 推荐使用supervisorctl管理进程
